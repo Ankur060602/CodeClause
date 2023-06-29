@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 55px;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(back.jpg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #a3a3a3;
+}
+
+.converter {
+    max-width: 500px;
+    height: 250px;
+    margin: 20px auto;
+    padding-top: 25px ;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: #ffffff;
+}
+
+label, input, select, button {
+    display: block;
+    margin: 10px;
+    font-size: 15px;
+}
+
+input[type="number"] {
+    width: 400px;
+    padding: 5px;
+    margin: 5px auto;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+}
+
+#result {
+    margin: 10px auto;
+    width: 450px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    height: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.units{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#inputUnit{
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+    background: #ffffff;
+    box-shadow: 5px 5px 17px #c8c8c8,
+               -5px -5px 17px #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+
+#outputUnit{
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+    background: #ffffff;
+    box-shadow: 5px 5px 17px #c8c8c8,
+               -5px -5px 17px #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
